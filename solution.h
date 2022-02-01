@@ -138,7 +138,6 @@ Node *removeDuplicates(Node *head){
 
   Node *ptr1 = head;
   Node *ptr2 = head->next;
-  
   while(ptr2!=NULL){
 
     if(ptr1->data==ptr2->data){
@@ -155,7 +154,6 @@ Node *removeDuplicates(Node *head){
     }
 
   }
-
   return head;
 
 }
